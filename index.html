@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page of Programming Languages</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            color: #444;
+            font-size: 2em;
+            text-align: center;
+            padding: 20px 0;
+            background-color: #ddd;
+        }
+        menu {
+            display: flex;
+            justify-content: space-around;
+            list-style-type: none;
+            padding: 20px 0;
+            background-color: #ccc;
+            margin: 0;
+        }
+        menu li a {
+            color: #333;
+            text-decoration: none;
+        }
+        table {
+            width: 90%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ccc;
+            text-align: left;
+        }
+        th {
+            background-color: #bbb;
+            color: white;
+        }
+        form {
+            font-family: 'Courier New', Courier, monospace;
+        }
+        iframe {
+            width: 100%;
+            height: 300px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        progress {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the Programming Hub</h1>
+
+    <menu>
+        <li><a href="index2.html">Second Page</a></li>
+        <li><a href="RstContentsInHtml.html">Rst contents in html</a></li>
+    </menu>
+    
+    <table>
+        <tr>
+            <th>Language</th>
+            <th>Description</th>
+            <th>Additional Information</th>
+        </tr>
+        <tr>
+            <td>C</td>
+            <td>C is a general-purpose programming language which features economy of expressions, modern control flow and data structures, and a rich set of operators.</td>
+            <td>
+                <form>
+                    <fieldset>
+                        <legend>Feedback</legend>
+                        Name: <input type="text"><br><br>
+                        Experience with C: <textarea name="comment" rows="5" cols="20" maxlenght="98" ></textarea>
+                    </fieldset>
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>C++</td>
+            <td>C++ is a statically typed, compiled, general-purpose, case-sensitive, free-form programming language that supports procedural, object-oriented, and generic programming.</td>
+            <td>
+                <iframe src="https://www.cplusplus.com/doc/tutorial/"></iframe>
+            </td>
+        </tr>
+        <tr>
+            <td>Python</td>
+            <td>Python is an interpreted, high-level and general-purpose programming language. Python's design philosophy emphasizes code readability with its notable use of significant indentation.</td>
+            <td>
+                <picture>
+                    <img src="python-logo.png" alt="Python Logo">
+                </picture>
+            </td>
+        </tr>
+        <tr>
+            <td>Java</td>
+            <td>Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible.</td>
+            <td>
+                <progress value="70" max="100" ></progress>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

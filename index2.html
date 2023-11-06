@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page of Innovative Technologies</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            color: #444;
+            font-size: 2em;
+            text-align: center;
+            padding: 20px 0;
+            background-color: #ddd;
+        }
+        menu {
+            display: flex;
+            justify-content: space-around;
+            list-style-type: none;
+            padding: 20px 0;
+            background-color: #ccc;
+            margin: 0;
+        }
+        menu li a {
+            color: #333;
+            text-decoration: none;
+        }
+        table {
+            width: 90%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ccc;
+            text-align: left;
+        }
+        th {
+            background-color: #bbb;
+            color: white;
+        }
+        form {
+            font-family: 'Courier New', Courier, monospace;
+        }
+        select {
+            width: 100%;
+            padding: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        input[type=submit] {
+            margin-top: 10px;
+            padding: 5px 15px;
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the Tech Hub</h1>
+
+    <menu>
+        <li><a href="index.html">First Page</a></li>
+        <li><a href="RstContentsInHtml.html">Rst contents in html</a></li>
+    </menu>
+    
+    <table>
+        <tr>
+            <th>Technology</th>
+            <th>Description</th>
+            <th>Additional Information</th>
+        </tr>
+        <tr>
+            <td>Artificial Intelligence</td>
+            <td>Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions.</td>
+            <td>
+                <form>
+                    <label for="techType">Technology Type:</label>
+                    <select id="techType" name="techType">
+                        <option value="AI">Artificial Intelligence</option>
+                        <option value="Blockchain">Blockchain</option>
+                        <option value="IoT">Internet of Things</option>
+                        <option value="AR">Augmented Reality</option>
+                    </select>
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>Blockchain</td>
+            <td>Blockchain is a system of recording information in a way that makes it difficult or impossible to change, hack, or cheat the system.</td>
+            <td>
+                <form action="" method="post">
+                    Enter Blockchain ID: <input type="text" name="blockchainId"><br>
+                    <input type="submit" value="Check Blockchain">
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>Internet of Things</td>
+            <td>Internet of Things (IoT) describes the network of physical objects—“things”—that are embedded with sensors, software, and other technologies for the purpose of connecting and exchanging data with other devices and systems over the internet.</td>
+            <td>
+                <menu type="list">
+                    <li><a href="">Smart Home</a></li>
+                    <li><a href="">Smart City</a></li>
+                    <li><a href="">IoT Security</a></li>
+                </menu>
+            </td>
+        </tr>
+        <tr>
+            <td>Augmented Reality</td>
+            <td>Augmented Reality (AR) is an interactive experience of a real-world environment where the objects that reside in the real world are enhanced by computer-generated perceptual information.</td>
+            <td>
+                <select aria-label="Augmented Reality Categories">
+                    <optgroup label="Hardware">
+                        <option value="glasses">AR Glasses</option>
+                        <option value="headsets">AR Headsets</option>
+                    </optgroup>
+                    <optgroup label="Software">
+                        <option value="games">AR Games</option>
+                        <option value="apps">AR Apps</option>
+                    </optgroup>
+                </select>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
